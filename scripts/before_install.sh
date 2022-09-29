@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir /home/ec2-user/server
 sudo yum -y update
 sudo yum -y install httpd.x86_64
 sudo systemctl start httpd.service
